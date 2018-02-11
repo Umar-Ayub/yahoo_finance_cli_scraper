@@ -5,7 +5,7 @@ Command line yahoo finance scraper that returns various statistics on publicly t
 
 Navigate to repository first using cd, then use the following command
 ```
-python financescrapper.py <ticker1> <ticker2>
+python financescrapper.py <ticker1> <ticker2> ...
 ```
 The output file is a JSON Object stored in the current directory.
 The folloiwing is an example for the AAPL stock:
