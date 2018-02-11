@@ -1,5 +1,5 @@
 # yahoo_finance_cli_scraper
-Command line yahoo finance scraper that returns various statistics on publicly traded companies
+Simple command line yahoo finance scraper that returns various statistics on publicly traded companies.
 
 # Usage
 
@@ -8,7 +8,7 @@ Navigate to repository first using cd, then use the following command
 python financescrapper.py <ticker1> <ticker2> ...
 ```
 The output file is a JSON Object stored in the current directory.
-The folloiwing is an example for the AAPL stock:
+The following is an example for the AAPL stock:
 ```
 {
     "Previous Close": "154.52", 
@@ -37,5 +37,4 @@ The folloiwing is an example for the AAPL stock:
     "Forward Dividend & Yield": "2.52 (1.61%)", 
     "Ex-Dividend Date": "2017-11-10"
 }
-```
-
+``` 
