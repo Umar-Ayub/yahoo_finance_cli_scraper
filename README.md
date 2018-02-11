@@ -7,7 +7,7 @@ Navigate to repository first using cd, then use the following command
 ```
 python financescrapper.py <ticker1> <ticker2>
 ```
-the output is a JSON Object such as the folloiwing:
+the output is a JSON Object such as in the folloiwing example for the AAPL stock:
 ```
 {
     "Previous Close": "154.52", 
